@@ -106,12 +106,3 @@ Files to include in the repo
 - `README.md`
 - `.gitignore`
 
-Security notes
-
-- Do NOT commit secrets (API keys, service account JSON, .env files) to the repository. Use GitHub Secrets for CI/CD.
-
-If you want, I can:
-- initialize git in the folder and make the initial commit for you, and/or
-- create the remote GitHub repo using `gh` and push the code.
-
-Tell me which you prefer and I will run the commands for you.
